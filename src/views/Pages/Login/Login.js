@@ -8,7 +8,7 @@ class Login extends Component {
       <div className="app flex-row align-items-center">
         <Container>
           <Row className="justify-content-center">
-            <Col md="8">
+            <Col md="5">
               <CardGroup>
                 <Card className="p-4">
                   <CardBody>
@@ -33,7 +33,12 @@ class Login extends Component {
                       </InputGroup>
                       <Row>
                         <Col xs="6">
-                          <Button color="primary" className="px-4">Login</Button>
+                          <Button 
+                            color="primary" 
+                            className="px-4"
+                          >
+                            Login
+                          </Button>
                         </Col>
                         <Col xs="6" className="text-right">
                           <Button color="link" className="px-0">Forgot password?</Button>
@@ -42,7 +47,7 @@ class Login extends Component {
                     </Form>
                   </CardBody>
                 </Card>
-                <Card className="text-white bg-primary py-5 d-md-down-none" style={{ width: '44%' }}>
+                {/* <Card className="text-white bg-primary py-5 d-md-down-none" style={{ width: '44%' }}>
                   <CardBody className="text-center">
                     <div>
                       <h2>Sign up</h2>
@@ -53,7 +58,7 @@ class Login extends Component {
                       </Link>
                     </div>
                   </CardBody>
-                </Card>
+                </Card> */}
               </CardGroup>
             </Col>
           </Row>
